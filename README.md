@@ -75,7 +75,7 @@ The API endpoints are organized as follows:
 #### Balance Sheet Endpoints:
 - `GET /balance/{user_id}`: Retrieve the balance sheet for a specific user.
 - `GET /balance/`: Retrieve overall balances for all users.
-- `GET /balance/download`: Download the balance sheet as a file.
+- `GET /download`: Download the balance sheet as a file.
 
 ### 6. Data Models
 #### Users

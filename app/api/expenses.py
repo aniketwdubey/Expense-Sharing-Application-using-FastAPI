@@ -67,6 +67,15 @@ def create_expense(expense: expense_schema.ExpenseCreate, db: Session = Depends(
     db.commit()  # Commit the changes to the balance table after all updates/creates
 
     return db_expense
+    # return {
+    #     "id": db_expense.id,
+    #     "amount": db_expense.amount,
+    #     "description": db_expense.description,
+    #     "user_ids": db_expense.user_ids.split(','),  # Convert back to list
+    #     "split_method": db_expense.split_method,
+    #     "paid_by": db_expense.paid_by,
+    # }
+
 
 # Get individual expenses.
 @router.get("/expenses/{user_id}")
