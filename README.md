@@ -117,7 +117,7 @@ The API endpoints are organized as follows:
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.28.37 PM.png>)
 
 #### Download Balance Sheet
-
+![alt text](<screenshots/Screenshot 2024-10-23 at 7.30.03 PM.png>)
 
 
 
