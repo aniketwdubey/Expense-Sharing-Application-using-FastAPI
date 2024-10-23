@@ -90,7 +90,7 @@ The API endpoints are organized as follows:
 
 ### 6. Example Usage
 
-#### Add a User
+#### Add Users
 ![alt text](<screenshots/Screenshot 2024-10-23 at 5.46.01 PM.png>)
 
 #### Users Table
@@ -110,11 +110,16 @@ The API endpoints are organized as follows:
 #### Retrieve individual user expenses.
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.23.06 PM.png>)
 
+#### Balance Table
+![alt text](<screenshots/Screenshot 2024-10-23 at 6.47.48 PM.png>)
+
 #### Balance Sheet - Show overall expenses for all users.
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.28.37 PM.png>)
 
-#### Balance Table
-![alt text](<screenshots/Screenshot 2024-10-23 at 6.47.48 PM.png>)
+#### Download Balance Sheet
+
+
+
 
 <!-- ### 7. Data Validation
 The application ensures the following:
