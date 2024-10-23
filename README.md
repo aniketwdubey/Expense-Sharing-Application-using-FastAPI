@@ -93,13 +93,15 @@ The API endpoints are organized as follows:
 #### Add a User
 ![alt text](<screenshots/Screenshot 2024-10-23 at 5.46.01 PM.png>)
 
-#### Users
+#### Users Table
 ![alt text](<screenshots/Screenshot 2024-10-23 at 5.49.17 PM.png>)
 
 #### Add Expenses
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.14.39 PM.png>)
 ![alt text](<screenshots/Screenshot 2024-10-23 at 6.39.26 PM.png>)
 ![alt text](<screenshots/Screenshot 2024-10-23 at 6.47.22 PM.png>)
+
+#### Expenses Table
 ![alt text](<Screenshot 2024-10-23 at 6.47.43 PM.png>)
 
 #### Retrieve overall expenses.
@@ -111,6 +113,7 @@ The API endpoints are organized as follows:
 #### Balance Sheet - Show overall expenses for all users.
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.28.37 PM.png>)
 
+#### Balance Table
 ![alt text](<screenshots/Screenshot 2024-10-23 at 6.47.48 PM.png>)
 
 <!-- ### 7. Data Validation
