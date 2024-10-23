@@ -102,7 +102,7 @@ The API endpoints are organized as follows:
 ![alt text](<screenshots/Screenshot 2024-10-23 at 6.47.22 PM.png>)
 
 #### Expenses Table
-![alt text](<Screenshot 2024-10-23 at 6.47.43 PM.png>)
+![alt text](<screenshots/Screenshot 2024-10-23 at 6.47.43 PM.png>)
 
 #### Retrieve overall expenses.
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.24.43 PM.png>)
