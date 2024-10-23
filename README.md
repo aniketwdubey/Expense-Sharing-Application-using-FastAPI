@@ -119,12 +119,19 @@ The API endpoints are organized as follows:
 #### Download Balance Sheet
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.30.03 PM.png>)
 
+### Interacting with the API
+To interact with the API, you can use the automatically generated FastAPI documentation, which provides a user-friendly interface to explore and test the endpoints.
 
+FastAPI Documentation UI
+FastAPI provides an interactive documentation UI, which can be accessed at the following paths after running the application:
+
+Swagger UI: Navigate to http://127.0.0.1:8000/docs to access Swagger, which allows you to interact with the API directly from your browser.
+ReDoc: Alternatively, you can use http://127.0.0.1:8000/redoc for a different style of documentation.
 
 <!-- ### 7. Data Validation
 The application ensures the following:
 - **User input validation**: Email and mobile numbers must be unique.
-- **Split validation**: For percentage splits, the total must add up to 100%.
+- **Split validation**: For percentage splits, the total must add up to 100%. -->
 
 ## Bonus Features
 - **Error handling**: The application includes basic error handling.
