@@ -59,6 +59,16 @@ uvicorn app.main:app --reload
 
 The application will be available at `http://127.0.0.1:8000`.
 
+### 6. Data Models
+#### Users
+- **User**: Contains `id`, `name`, `email`, and `mobile`.
+
+#### Expenses
+- **Expense**: Contains `id`, `amount`, `description`, `paid_by`, `split_method`, and `user_ids`.
+
+#### Balance
+- **Balance**: Tracks the balance for each user, including the `user_id`, `user_name`, and `amount_owed`.
+
 ### 5. API Endpoints
 The API endpoints are organized as follows:
 
@@ -77,15 +87,12 @@ The API endpoints are organized as follows:
 - `GET /balance/`: Retrieve overall balances for all users.
 - `GET /download`: Download the balance sheet as a file.
 
-### 6. Data Models
-#### Users
-- **User**: Contains `id`, `name`, `email`, and `mobile`.
 
-#### Expenses
-- **Expense**: Contains `id`, `amount`, `description`, `paid_by`, `split_method`, and `user_ids`.
+### 6. Example Usage
 
-#### Balance
-- **Balance**: Tracks the balance for each user, including the `user_id`, `user_name`, and `amount_owed`.
+#### Add Users
+![alt text](<screenshots/Screenshot 2024-10-23 at 5.46.01 PM.png>)
+
 
 <!-- ### 7. Data Validation
 The application ensures the following:
