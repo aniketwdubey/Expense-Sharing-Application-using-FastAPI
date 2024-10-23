@@ -119,7 +119,7 @@ The API endpoints are organized as follows:
 #### Download Balance Sheet
 ![alt text](<screenshots/Screenshot 2024-10-23 at 7.30.03 PM.png>)
 
-### Interacting with the API
+### 7. Interacting with the API
 To interact with the API, you can use the automatically generated FastAPI documentation, which provides a user-friendly interface to explore and test the endpoints.
 
 FastAPI Documentation UI
@@ -133,7 +133,7 @@ The application ensures the following:
 - **User input validation**: Email and mobile numbers must be unique.
 - **Split validation**: For percentage splits, the total must add up to 100%. -->
 
-## Bonus Features
+<!-- ## Bonus Features
 - **Error handling**: The application includes basic error handling.
 - **Input validation**: Data is validated before being processed.
 - **Downloadable balance sheets**: Users can download a detailed balance sheet.
