@@ -90,8 +90,15 @@ The API endpoints are organized as follows:
 
 ### 6. Example Usage
 
-#### Add Users
+#### Add a User
 ![alt text](<screenshots/Screenshot 2024-10-23 at 5.46.01 PM.png>)
+
+#### Users
+![alt text](<screenshots/Screenshot 2024-10-23 at 5.49.17 PM.png>)
+
+#### Add Expenses
+![alt text](<screenshots/Screenshot 2024-10-23 at 7.14.39 PM.png>)
+![alt text](<screenshots/Screenshot 2024-10-23 at 6.39.26 PM.png>)
 
 
 <!-- ### 7. Data Validation
