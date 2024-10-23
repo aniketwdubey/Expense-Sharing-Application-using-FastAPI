@@ -44,3 +44,11 @@ def get_user(user_id: int, db: Session = Depends(get_db)):
     if not db_user:
         raise HTTPException(status_code=404, detail="User not found")
     return db_user
+
+@router.get("/users/")
+def get_all_users(db: Session = Depends(get_db)):
+    """Retrieve all users."""
+    users = db.query(models.User).all()
+    if not users:
+        raise HTTPException(status_code=404, detail="No users found")
+    return users

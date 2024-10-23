@@ -65,6 +65,7 @@ The API endpoints are organized as follows:
 #### User Endpoints:
 - `POST /users/`: Create a new user.
 - `GET /users/{user_id}`: Retrieve details of a specific user.
+- `GET /users/`: Retrieve all users.
 
 #### Expense Endpoints:
 - `POST /expenses/`: Add a new expense.
@@ -73,6 +74,7 @@ The API endpoints are organized as follows:
 
 #### Balance Sheet Endpoints:
 - `GET /balance/{user_id}`: Retrieve the balance sheet for a specific user.
+- `GET /balance/`: Retrieve overall balances for all users.
 - `GET /balance/download`: Download the balance sheet as a file.
 
 ### 6. Data Models
@@ -85,7 +87,7 @@ The API endpoints are organized as follows:
 #### Balance
 - **Balance**: Tracks the balance for each user, including the `user_id`, `user_name`, and `amount_owed`.
 
-### 7. Data Validation
+<!-- ### 7. Data Validation
 The application ensures the following:
 - **User input validation**: Email and mobile numbers must be unique.
 - **Split validation**: For percentage splits, the total must add up to 100%.
@@ -98,7 +100,7 @@ The application ensures the following:
 ### Potential Improvements:
 - **Authentication and Authorization**: Secure the API with user authentication.
 - **Performance Optimization**: Add caching for large datasets.
-- **Testing**: Unit and integration tests can be added for better reliability.
+- **Testing**: Unit and integration tests can be added for better reliability. -->
 
 ## License
 This project is licensed under the MIT License.
