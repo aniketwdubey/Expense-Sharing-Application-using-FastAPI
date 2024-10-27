@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from app.schemas import expenses as expense_schema
 from app.models import models
@@ -6,7 +6,7 @@ from app.core.database import get_db
 
 router = APIRouter()
 
-@router.post("/expenses/")
+@router.post("/expenses/", status_code=status.HTTP_201_CREATED)
 def create_expense(expense: expense_schema.ExpenseCreate, db: Session = Depends(get_db)):
     """Create a new expense and update the balances of users involved."""
     # Validate split method
